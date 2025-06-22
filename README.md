@@ -4,21 +4,7 @@ I've thrown the most common-use Pieces Typescript SDK types into an adapter reci
 
 `pattern × service × strategy = specific API calls`
 
-<svg width="850" height="200" xmlns="http://www.w3.org/2000/svg"> <!-- Input --> <rect x="20" y="40" width="160" height="130" rx="5" ry="5" fill="white" stroke="#333" stroke-width="2"/> <text x="65" y="30" font-family="Arial" font-size="14" font-weight="bold">Inputs</text>
-
-<text x="35" y="70" font-family="Arial" font-size="12" font-weight="bold">Pattern</text> <text x="50" y="90" font-family="Arial" font-size="12">list, get, create,</text> <text x="50" y="105" font-family="Arial" font-size="12">update, delete, etc.</text>
-
-<text x="35" y="125" font-family="Arial" font-size="12" font-weight="bold">Service</text> <text x="50" y="145" font-family="Arial" font-size="12">conversations, assets,</text> <text x="50" y="160" font-family="Arial" font-size="12">models, etc.</text>
-
-<text x="190" y="100" font-family="Arial" font-size="18" font-weight="bold">×</text>
-
-<!-- Strategy --> <rect x="210" y="65" width="120" height="70" rx="5" ry="5" fill="white" stroke="#333" stroke-width="2"/> <text x="235" y="55" font-family="Arial" font-size="14" font-weight="bold">Strategy</text> <text x="220" y="85" font-family="Arial" font-size="12">standard</text> <text x="220" y="105" font-family="Arial" font-size="12">resilient</text> <text x="220" y="125" font-family="Arial" font-size="12">realtime</text>
-
-<text x="340" y="100" font-family="Arial" font-size="18" font-weight="bold">=</text>
-
-<!-- Matrix --> <rect x="360" y="40" width="360" height="120" rx="5" ry="5" fill="white" stroke="#333" stroke-width="2"/> <text x="420" y="30" font-family="Arial" font-size="14" font-weight="bold">Pieces Matrix</text>
-
-<text x="370" y="70" font-family="Arial" font-size="12" font-weight="bold">Build Once, Ship Anywhere LLM Chat Apps:</text> <text x="385" y="90" font-family="Arial" font-size="12">• Easier Websocket, stores and frontend state management</text> <text x="385" y="110" font-family="Arial" font-size="12">• Smart retries and fallbacks</text> <text x="385" y="130" font-family="Arial" font-size="12">• Efficient caching on demand</text> <text x="385" y="150" font-family="Arial" font-size="12">• Maintains type safety</text> </svg>
+![Pieces Matrix Recipe](static/readme.svg)
 
 # Quick Start
 
