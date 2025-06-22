@@ -12,7 +12,17 @@ I've thrown the most common-use Pieces Typescript SDK types into an adapter reci
 Clone this repo and install the core package directly from local copy:
 
 ```bash
-npm install piecesmatrix
+cd /path/to/piecesmatrix
+# Using npm
+npm install /packages/core
+
+# Using pnpm
+pnpm add /path/to/piecesvelte/packages/core
+```
+Or you can install from my remote:
+
+```bash
+npm install github:seantiz/piecesvelte/packages/core
 ```
 
 ## Basic Usage
@@ -20,7 +30,7 @@ npm install piecesmatrix
 After installation, import and start up the adapter client:
 
 ```typescript
-import { pieces, newAdapterClient } from 'piecesmatrix';
+import { pieces, newAdapterClient } from 'core';
 
 // Start the adapter client with default settings
 newAdapterClient({
