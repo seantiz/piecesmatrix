@@ -4,7 +4,8 @@ I've thrown the most common-use Pieces Typescript SDK types into an adapter reci
 
 `pattern × service × strategy = specific API calls`
 
-![Pieces Matrix Recipe](static/readme.svg)
+![Pieces Matrix Recipe](static/readme.svg#gh-light-mode-only)
+![Pieces Matrix Recipe Dark Mode Version](static/readmed.svg#gh-dark-mode-only)
 
 # Quick Start
 
